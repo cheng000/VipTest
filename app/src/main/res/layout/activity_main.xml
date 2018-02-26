@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.viptest.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:id="@+id/url_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vip test"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </ScrollView>
+
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:id="@+id/realurl_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="real url"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:background="@drawable/youku_web"
+            android:id="@+id/youku_url"
+            android:onClick="OpenYouku"
+            android:layout_width="60dp"
+            android:layout_height="40dp" />
+        <ImageButton
+            android:background="@drawable/aiqiyi_web"
+            android:id="@+id/aiqiyi_url"
+            android:onClick="OpenAiqiyi"
+            android:layout_width="60dp"
+            android:layout_height="40dp" />
+        <View
+            android:layout_width="100dp"
+            android:layout_height="1dp"/>
+        <Button
+            android:textColor="@color/colorAccent"
+            android:onClick="play"
+            android:id="@+id/play_video"
+            android:text="play"
+            android:layout_width="60dp"
+            android:layout_height="40dp" />
+        <Button
+            android:textAllCaps="false"
+            android:textSize="8sp"
+            android:onClick="change"
+            android:id="@+id/change_web"
+            android:text="change"
+            android:layout_width="60dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
