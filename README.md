@@ -1,4 +1,6 @@
 # VipTest
+大三期间的Andriod测试项目，记录第一次被star 😄
 
+## Star History
 
-<iframe style="width:100%;height:auto;min-width:600px;min-height:400px;" src="https://star-history.com/embed?secret=Z2hwX3k0R3c1c2p5WkFTN1JubjlpTTViWU5TalNsMkNQZTM2b0ZoYQ==#cheng000/VipTest&Date" frameBorder="0"></iframe>
+[![Star History Chart](https://api.star-history.com/svg?repos=cheng000/VipTest&type=Date)](https://star-history.com/#cheng000/VipTest&Date)
